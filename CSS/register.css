@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/7f/7f/28/7f7f2882899755a705a2953b6fcfc263.gif');
+    background-size: cover;
+}
+.container{
+    border: 2px solid greenyellow ;
+    border-radius: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    width: 500px;
+    height:580px;
+    margin: 150px auto;
+    text-align: center;
+    background-color: green;
+    box-shadow: 0px 0px 10px 5px #00FF0C;
+}
+.container h1{
+    margin-top: 0;
+    border-top:10px;
+    text-align: center;
+    height: 70px;
+    line-height: 69px;
+    color: white;
+}
+.group{
+    font-family: "Playfair Display", serif;
+    color: wheat;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+    height: 490px;
+    padding-top: 15px;
+    border-radius:10px 10px 10px 10px;
+}
+input[type=text], input[type=password],input[type=email]{
+width: 100%;
+border: 1px solid #00FF0C;
+/* height: 35px; */
+box-sizing: border-box;
+box-shadow:5px 5px #00FF0C;
+margin: 9px 5px 9px 5px;
+}
+.m{
+    background-color: aqua;
+    font-size: 27px;
+    margin-left: 460px;
+}
+.m:hover
+{
+    opacity: 0.8;
+    background-color: red;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 35px;
+    font-weight: bold;
+    /* line-height: 4; */
+}
+div.error{
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    margin: 25px auto;
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+    opacity: 0.8;
+    background-color: palevioletred;
+}
