@@ -42,13 +42,13 @@ if (isset($_POST['save'])) {
         </h1>
         <form class="group" action="<?php $_SERVER['PHP_SELF']; ?>" method="POST" autocomplete="on">
             <label>First Name</label></br>
-            <input type="text" name="fname" placeholder="Enter your name"></br>
+            <input type="text" name="fname" placeholder="Enter your name" required></br>
             <label>Last Name</label></br>
-            <input type="text" name="lname" placeholder="Enter your name"></br>
+            <input type="text" name="lname" placeholder="Enter your name" required></br>
             <label>Email Address</label></br>
-            <input type="email" name="email" placeholder="Enter your email address"></br>
+            <input type="email" name="email" placeholder="Enter your email address" required></br>
             <label>Password</label></br>
-            <input type="password" name="pass" placeholder="Enter your password">
+            <input type="password" name="pass" placeholder="Enter your password" required>
             <input class="m" type="submit" name="save" value="Register">
         </form>
     </div>
