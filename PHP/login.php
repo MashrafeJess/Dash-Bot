@@ -28,6 +28,7 @@ if (isset($_POST['save'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="shortcut icon" href="../CSS/One-Piece-anime.png" type="png">
 </head>
 
 <body>

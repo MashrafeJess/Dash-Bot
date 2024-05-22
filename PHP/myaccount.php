@@ -23,6 +23,7 @@ mysqli_stmt_close($stmt);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account Details</title>
     <link rel="stylesheet" href="../CSS/myaccount.css">
+    <link rel="shortcut icon" href="../CSS/One-Piece-anime.png" type="png">
 </head>
 
 <body>
